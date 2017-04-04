@@ -1,12 +1,7 @@
 Rails.application.routes.draw do
   
-  get 'articles/new'
-
-  get 'articles_controller/new'
-
   root 'pages#home'
-
-  get 'pages/about'
+  get '/about', to: 'pages#about'
 
   resources :articles
 

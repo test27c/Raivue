@@ -106,16 +106,13 @@ button.navbar-toggle.collapsed {
 }
 
 .btn-xlarge {
-  font-size: 1.7em;
+  font-size: 1.4em;
   text-decoration: none;
-  // color: rgba(255, 255, 255, 0.8);
   padding: 15px 40px;
   border-radius: 4px;
   font-weight: normal;
-  // text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   &:hover {
-    // box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
   box-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
     
   }
@@ -124,4 +121,32 @@ button.navbar-toggle.collapsed {
 #quote {
     color: #fff;
     padding-top: 220px;
+     text-shadow: 2px 0 0 #ff2151, -2px 0 0 #ff2151, 0 2px 0 #ff2151, 0 -2px 0 #ff2151, 1px 1px #ff2151, -1px -1px 0 #ff2151, 1px -1px 0 #ff2151, -1px 1px 0 #ff2151;
+}
+
+// Footer 
+
+.footer {
+  // margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+
+  a:hover {
+    color: #222;
+  }
+
+  small {
+    float: left;
+  }
+
+  ul {
+    float: right;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
