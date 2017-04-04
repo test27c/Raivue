@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.0.2'
 # Add bootstrap-sass gem
 gem 'bootstrap-sass', '~> 3.3.6'
+# Add bcrypt gem
+gem 'bcrypt'
 # Add figaro gem
 gem 'figaro'
 # Use Puma as the app server

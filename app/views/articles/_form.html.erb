@@ -1,8 +1,8 @@
+<%= render 'shared/error_messages', object: f.object %>
 <div class="row">
   <div class="col-xs-12">
     <%= form_for(@article, :html => {class: "form-horizontal", role: "form"}) do |f| %>
       <div class="form-group">
-        <%= render 'shared/error_messages', object: f.object %>
         <div class="control-label col-sm-2">
           <%= f.label :title %>
         </div>
