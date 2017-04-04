@@ -8,6 +8,10 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
+# Add will_paginate gem
+gem 'will_paginate'
+# Add bootstrap-will_paginate gem
+gem 'bootstrap-will_paginate'
 # Add bootstrap-sass gem
 gem 'bootstrap-sass', '~> 3.3.6'
 # Add bcrypt gem
