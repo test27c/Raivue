@@ -127,7 +127,7 @@ button.navbar-toggle.collapsed {
 // Footer 
 
 .footer {
-  // margin-top: 5px;
+  margin-top: 15px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -149,4 +149,29 @@ button.navbar-toggle.collapsed {
       margin-left: 15px;
     }
   }
+}
+
+// Show articles
+
+.article-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+// Show article
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+
+.description {
+  margin-top: 0;
 }
