@@ -176,6 +176,17 @@ button.navbar-toggle.collapsed {
 
 // Show article
 
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
