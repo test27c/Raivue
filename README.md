@@ -1,3 +1,3 @@
 # Raivue
 
-Blogs about Rails and Vue.
+RaiVue-Blog is blog that dedicated to study japanese.
